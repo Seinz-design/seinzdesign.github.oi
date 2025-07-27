@@ -1,0 +1,85 @@
+body {
+    user-select: none;
+    margin: 0%;
+    padding: 0%;
+    background-color:#070e25;
+    
+}
+
+nav {
+    background-color:#09122C;
+    font-family: 'montserrat';
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border: 0.5px solid #cc874b0e;
+    top: 0%;
+    width: 100%;
+    height: 55px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    list-style-type: none;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    width: 100vw;
+    height: 520px;
+}
+
+.bio {
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 600px;
+    
+
+}
+.button-contact {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 55px;
+    border: 1px solid #cc874b;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+.item-information {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    
+}
+
+.ornamen {
+    margin-top: 20px;
+    width: 50%;
+    height: 25%;
+}
